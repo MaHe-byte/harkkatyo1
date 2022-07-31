@@ -80,7 +80,7 @@ else if(argv ==2){	//Tapaus jossa käyttäjä ei anna tekstitiedostoa
      if (str == NULL)
         {
             fprintf(stderr, "malloc failed \n");
-            exit(1);
+            exit(1);}
     
     scanf("%s",str); //Kysytään käyttäjältä teksti joka kopioidaan
     fprintf(stdout,"%s\n", str);
